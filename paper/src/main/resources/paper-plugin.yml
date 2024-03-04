@@ -1,0 +1,7 @@
+name: Transporter
+main: me.qeklydev.transporter.TransporterPlugin
+loader: me.qeklydev.transporter.TransporterPluginLoader
+authors: [ Qekly ]
+
+api-version: "1.19"
+version: ${version}
