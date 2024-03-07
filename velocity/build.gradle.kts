@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.shadow)
     alias(libs.plugins.blossom)
-    alias(libs.plugins.velocity)
 }
 
 tasks {
@@ -13,9 +12,6 @@ tasks {
         archiveClassifier.set("Proxy")
 
         relocate("net.byteflux.libby", "me.qeklydev.transporter.libs.net.byteflux.libby")
-    }
-    runVelocity {
-        velocityVersion(libs.versions.velocity.get())
     }
 }
 
