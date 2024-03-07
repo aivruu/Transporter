@@ -3,12 +3,13 @@ blossom = "1.2.0"
 shadow = "8.1.1"
 spotless = "6.25.0"
 indra = "3.0.1"
-runvelocity = "2.2.0"
 
 # Version declaration for Paper-API.
 paper = "1.19.4-R0.1-SNAPSHOT"
 # Version declaration for Velocity-API.
 velocity = "3.3.0-SNAPSHOT"
+# Version declaration for MiniMessage.
+minimessage = "4.16.0"
 
 # Version declaration for Configurate.
 configurate = "4.1.2"
@@ -21,6 +22,7 @@ libby = "1.3.0"
 [libraries]
 paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
 velocity = { group = "com.velocitypowered", name = "velocity-api", version.ref = "velocity" }
+minimessage = { module = "net.kyori:adventure-text-minimessage", version.ref = "minimessage" }
 
 configurate = { module = "org.spongepowered:configurate-hocon", version.ref = "configurate" }
 command = { module = "dev.triumphteam:triumph-cmd-bukkit", version.ref = "command" }
@@ -33,4 +35,3 @@ shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 indra = { id = "net.kyori.indra", version.ref = "indra" }
 indra-checkstyle = { id = "net.kyori.indra.checkstyle", version.ref = "indra" }
-velocity = { id = "xyz.jpenilla.run-velocity", version.ref = "runvelocity" }
